@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 *{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 
 html{
@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background-color: #3AAFA9;
+    background-color: #001F3F;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,16 +18,16 @@ body {
 }
 
 svg{
-    background-color: #DEF2F1;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    background-color: #FFA07A;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     padding: 10px;
 }
 
 .bar{
-    background-color: #2B7A78;
-    border-color: #2B7A78;
-    fill: #2B7A78;
+    background-color: #3498db;
+border-color: #3498db;
+fill: #3498db;
 }
 
 .bar:hover{
@@ -45,6 +45,6 @@ g{
 }
 
 #title{
-    font-size: 30px;
-    fill: #17252A;
+    font-size: 34px;
+    fill: #001F3F;
 }
